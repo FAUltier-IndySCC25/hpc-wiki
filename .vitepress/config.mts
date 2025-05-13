@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "HPC-Wiki",
   description: "Wiki for HPC Stuff - designed for Student Cluster Competitions",
+  srcExclude: ['**/README.md', '**/TODO.md'],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -22,7 +23,11 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/Jojodicus/hpc-wiki' }
+    ],
+
+    search: {
+      provider: 'local'
+    }
   }
 })
