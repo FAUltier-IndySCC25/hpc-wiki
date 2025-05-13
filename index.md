@@ -9,17 +9,23 @@ hero:
   actions:
     - theme: brand
       text: Getting started
-      link: /markdown-examples
+      link: /intro
     - theme: alt
       text: NHR@FAU Homepage
       link: 'https://hpc.fau.de/'
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🚗
+    title: Setup
+    details: Getting the cluster up and running
+    link: /setup/
+  - icon: ✈️
+    title: Benchmark
+    details: Running the first benchmarking tests
+    link: /benchmark/
+  - icon: 🚀
+    title: Optimize
+    details: Squeezing out the most performance
+    link: /optimize/
 ---
 
