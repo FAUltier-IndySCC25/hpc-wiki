@@ -23,7 +23,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Jojodicus/hpc-wiki' }
+      { icon: 'git', link: 'https://github.com/Jojodicus/hpc-wiki' }
     ],
 
     search: {

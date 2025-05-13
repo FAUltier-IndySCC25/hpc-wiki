@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: "HPC-Wiki"
-  text: "Wiki for HPC Stuff - designed for Student Cluster Competitions"
-  tagline: My great project tagline
+  text: "Streamlining Student Cluster Competitions"
+  tagline: NHR@FAU
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Getting started
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: NHR@FAU Homepage
+      link: 'https://hpc.fau.de/'
 
 features:
   - title: Feature A
