@@ -1,11 +1,12 @@
-import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
   title: "HPC-Wiki",
   description: "Wiki for HPC Stuff - designed for Student Cluster Competitions",
   srcExclude: ['**/README.md', '**/TODO.md'],
   lastUpdated: true,
+  cleanUrls: true,
   sitemap: {
     hostname: 'https://hpc-wiki.de/' // FIXME
   },
@@ -33,16 +34,6 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Benchmark',
-        base: '/benchmark',
-        link: '/',
-        collapsed: true,
-        items: [
-          { text: 'MPI', link: '/mpi' },
-          { text: 'Slurm', link: '/slurm' }
-        ]
-      },
-      {
         text: 'Optimize',
         base: '/optimize',
         link: '/',
@@ -50,6 +41,17 @@ export default defineConfig({
         items: [
           { text: 'Hardware', link: '/hardware' },
           { text: 'Software', link: '/software' }
+        ]
+      },
+      {
+        text: 'Benchmark',
+        base: '/benchmark',
+        link: '/',
+        collapsed: true,
+        items: [
+          { text: 'HPL', link: '/hpl' },
+          { text: 'HPCG', link: '/hpcg' },
+          { text: 'LLM', link: '/llm' }
         ]
       }
     ],
