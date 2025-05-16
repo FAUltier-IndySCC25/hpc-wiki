@@ -18,6 +18,10 @@
 
 ## Runtime
 
-### Thread Pinning
+### CPU Pinning
 
-### Affinity
+### Memory Affinity
+
+### GPU Affinity
+
+### IB Affinity
