@@ -14,14 +14,11 @@ export default withMermaid({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Wiki', link: '/intro', activeMatch: '(/intro)|(/setup)|(/benchmark)|(/optimize)' }
+      { text: 'Wiki', link: '/intro', activeMatch: '(/intro)|(/setup)|(/optimize)|(/benchmark)|(/onsite)' }
     ],
 
     sidebar: [
-      {
-        text: 'Intro',
-        link: '/intro'
-      },
+      { text: 'Intro', link: '/intro' },
       {
         text: 'Setup',
         base: '/setup',
@@ -53,7 +50,8 @@ export default withMermaid({
           { text: 'HPCG', link: '/hpcg' },
           { text: 'LLM', link: '/llm' }
         ]
-      }
+      },
+      { text: 'Onsite', link: '/onsite' }
     ],
 
     footer: {
