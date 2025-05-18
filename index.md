@@ -63,7 +63,7 @@ const members = [
     ]
   },
   {
-    avatar: '/teamlogos/faulty.jpg',
+    avatar: '/teamlogos/faulty.webp',
     name: 'FAUlty',
     title: 'ASC24 - Shanghai'
   },
