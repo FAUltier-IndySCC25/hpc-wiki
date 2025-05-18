@@ -16,9 +16,9 @@ npm install
 To run the site locally for testing:
 
 ```
-npm run docs:dev
+npx vitepress
 ```
 
 ## Deployment
 
-(still getting sorted out)
+(still getting sorted out, check https://vitepress.dev/guide/deploy for more info)
