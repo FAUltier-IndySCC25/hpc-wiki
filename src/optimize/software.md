@@ -2,6 +2,8 @@
 
 ## UEFI (BIOS)
 
+manual fan curve (ipmi)
+
 ## Compiler Options
 
 ### GCC
