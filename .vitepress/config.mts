@@ -4,7 +4,7 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 export default withMermaid({
   title: "HPC-Wiki",
   description: "Wiki for HPC Stuff - designed for Student Cluster Competitions",
-  srcExclude: ['**/README.md', '**/TODO.md'],
+  srcDir: "src",
   lastUpdated: true,
   cleanUrls: true,
   sitemap: {
