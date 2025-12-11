@@ -7,6 +7,7 @@ export default withMermaid({
   srcDir: "src",
   lastUpdated: true,
   cleanUrls: true,
+  base: '/hpc-wiki/',
   sitemap: {
     hostname: 'https://faultier-indyscc25.github.io/hpc-wiki/' // FIXME
   },
@@ -60,7 +61,7 @@ export default withMermaid({
     },
 
     socialLinks: [
-      { icon: 'git', link: 'https://github.com/Jojodicus/hpc-wiki' }
+      { icon: 'git', link: 'https://github.com/FAUltier-IndySCC25/hpc-wiki' }
     ],
 
     search: {
