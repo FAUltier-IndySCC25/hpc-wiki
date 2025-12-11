@@ -38,7 +38,7 @@ import {
 
 const members = [
   {
-    avatar: '/teamlogos/fausion.webp',
+    avatar: 'teamlogos/fausion.webp',
     name: 'FAUSION',
     title: 'ISC25 - Hamburg',
     links: [
@@ -46,7 +46,7 @@ const members = [
     ]
   },
   {
-    avatar: '/teamlogos/clusterkraft.webp',
+    avatar: 'teamlogos/clusterkraft.webp',
     name: 'Clusterkraft',
     title: 'ASC25 - Xining',
     links: [
@@ -54,7 +54,7 @@ const members = [
     ]
   },
   {
-    avatar: '/teamlogos/faucet.webp',
+    avatar: 'teamlogos/faucet.webp',
     name: 'FAUcet',
     title: 'SC24 - Atlanta',
     links: [
@@ -63,7 +63,7 @@ const members = [
     ]
   },
   {
-    avatar: '/teamlogos/faulty.webp',
+    avatar: 'teamlogos/faulty.webp',
     name: 'FAUlty',
     title: 'ASC24 - Shanghai'
   },
