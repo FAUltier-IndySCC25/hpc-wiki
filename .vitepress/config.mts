@@ -8,7 +8,7 @@ export default withMermaid({
   lastUpdated: true,
   cleanUrls: true,
   sitemap: {
-    hostname: 'https://hpc-wiki.netlify.app/' // FIXME
+    hostname: 'https://faultier-indyscc25.github.io/hpc-wiki/' // FIXME
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

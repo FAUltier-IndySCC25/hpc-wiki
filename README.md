@@ -1,5 +1,7 @@
 # HPC-Wiki
 
+Currently available here: https://faultier-indyscc25.github.io/hpc-wiki/
+
 Wiki for HPC stuff, designed for being used in student cluster competitions (like at [SC](https://supercomputing.org/), [ISC](https://isc-hpc.com/) and [ASC](http://asc-events.org/)).
 Based on [Vitepress](https://vitepress.dev/).
 
