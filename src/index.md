@@ -67,6 +67,14 @@ const members = [
     name: 'FAUlty',
     title: 'ASC24 - Shanghai'
   },
+  {
+    avatar: 'teamlogos/FAUltier.webp',
+    name: 'FAUlrier',
+    title: 'SC25 - St. Louis',
+    links: [
+      {icon: 'github', link: 'https://github.com/FAUltier-IndySCC25'}
+    ]
+  }
 ]
 </script>
 
