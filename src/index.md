@@ -69,7 +69,7 @@ const members = [
   },
   {
     avatar: 'teamlogos/FAUltier.webp',
-    name: 'FAUlrier',
+    name: 'FAUltier',
     title: 'SC25 - St. Louis',
     links: [
       {icon: 'github', link: 'https://github.com/FAUltier-IndySCC25'}
