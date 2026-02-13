@@ -72,7 +72,8 @@ const members = [
     name: 'FAUltier',
     title: 'SC25 - St. Louis',
     links: [
-      {icon: 'github', link: 'https://github.com/FAUltier-IndySCC25'}
+      {icon: 'github', link: 'https://github.com/FAUltier-IndySCC25'},
+      {icon: 'x', link: 'https://x.com/FAUltierIndySCC'}
     ]
   }
 ]
