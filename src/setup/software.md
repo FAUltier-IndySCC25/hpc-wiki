@@ -40,13 +40,13 @@ Parameters:
 
 Creating:
 ```bash
-spack env create name
-spack env activate name
+spack env create <name>
+spack env activate <name>
 ```
 
 Specifying:
 ```bash
-spack add package
+spack add <package>
 ```
 
 
@@ -59,7 +59,7 @@ spack install
 Removal:
 ```bash
 spack env deactivate
-spack env rm name
+spack env rm <name>
 ```
 
 ### Spack find arguments
