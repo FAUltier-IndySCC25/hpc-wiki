@@ -38,7 +38,29 @@ Parameters:
 
 ### Environments
 
-TODO
+Creating:
+```bash
+spack env create name
+spack env activate name
+```
+
+Specifying:
+```bash
+spack add package
+```
+
+
+Installing:
+```bash
+spack concretize #find a consistent set of versions and dependencies for the packages
+spack install
+```
+
+Removal:
+```bash
+spack env deactivate
+spack env rm name
+```
 
 ### Spack find arguments
 
